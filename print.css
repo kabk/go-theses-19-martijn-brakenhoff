@@ -1,0 +1,246 @@
+/**:focus {
+  outline: none;
+}*/
+
+
+
+body {
+  font-family: "tiffany";
+  font-size: 12px;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+/*  background-color: beige;*/
+}
+
+#wrap {
+  width: auto;
+  height: auto;
+}
+
+
+#refresh {
+  width: auto;
+  height: auto;
+  position: fixed;
+  margin: 20px;
+  display: none;
+}
+
+#text   {
+  width: 810px;
+  height: auto;
+  float: left;
+  margin-left: 100px;
+/*  padding-left: 80px;
+  padding-top: 10px;*/
+}
+
+#images {
+  width: 1000px;
+  height: auto;
+}
+
+p{
+  font-size: 28px;
+  text-indent: 120px;
+  text-align: left;
+  line-height: 28pt;
+}
+
+h1  {
+  font-size: 60px;
+  font-weight: normal;
+  text-indent: 120px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: normal;
+  text-indent: 120px;
+  margin:0;
+  padding: 0;
+  text-transform: uppercase;
+
+}
+
+h3{
+  font-size: 28px;
+  font-style: italic;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 120px;
+  text-align: left;
+  line-height: 28pt;
+}
+
+h4{
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 120px;
+  text-align: left;
+  line-height: 40pt;
+}
+
+a.one:link {
+  background-image: linear-gradient(to top, blue , #2d6dff);
+  color: white !important;
+  border-radius: 22px;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+/*  box-shadow: */
+}
+
+
+a.one:hover {
+  background-image: linear-gradient(to top, blue , #2d6dff);
+  color: black;
+  border-radius: 22px;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a.one:visited {
+  background-image: linear-gradient(to top, blue , #2d6dff);
+  color: black;
+  border-radius: 22px;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/*a:link
+{
+  color: black;
+}
+
+a:visited
+{
+  color: black  
+}
+
+a:hover
+{
+  color: blue !important;
+}*/
+
+
+
+a.two:link {
+  color:black;
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+  line-height: 40pt;
+  text-decoration: none;
+}
+
+a.two:hover {
+  font-size: 28px;
+  color: blue !important;
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+  line-height: 40pt;
+  text-decoration: none;
+}
+
+a.two:visited {
+  font-size: 28px;
+  color: black;
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+  line-height: 40pt;
+  text-decoration: none;
+}
+
+
+
+figure {
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right: 0;
+  margin-bottom: 80px;
+  padding: 0;
+  display: block;
+  font-size: 0;
+}
+
+figcaption {
+  font-size: 16px;
+}
+
+
+
+img {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+    font-family: "Rockwell";
+    src: url("fonts/RockwellLight.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "courier";
+    src: url("fonts/Courier.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "kunstler";
+    src: url("fonts/Kunstler.otf") format('postscript');
+}
+
+@font-face {
+    font-family: "tiffany";
+    src: url("fonts/TiffanyScript.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "frankfurter";
+    src: url("fonts/FrankfurterMedium.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "bernhard";
+    src: url("fonts/Bernhard.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "sevesbrg";
+    src: url("fonts/sevesbrg.TTF") format('opentype');
+}
+
+@font-face {
+    font-family: "ambiance";
+    src: url("fonts/AmbianceBT.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "bmrea";
+    src: url("fonts/bmrea.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "didot";
+    src: url("fonts/DidotRoman.otf") format('opentype');
+}
+
+
+
